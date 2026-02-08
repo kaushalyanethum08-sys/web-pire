@@ -20,7 +20,7 @@ function removeFile(FilePath) {
 
 router.get('/', async (req, res) => {
     let num = req.query.number;
-    async function DanuwaPair() {
+    async function NM3() {
         const { state, saveCreds } = await useMultiFileAuthState(`./session`);
         try {
             let DanuwaPairWeb = makeWASocket({
